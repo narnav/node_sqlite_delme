@@ -1,0 +1,19 @@
+{
+    "name": "node_db",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "better-sqlite3": "^12.5.0",
+        "nodemon": "^3.1.11",
+        "sqlite3": "^5.1.7"
+    }
+}
